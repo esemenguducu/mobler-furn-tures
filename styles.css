@@ -1,0 +1,195 @@
+/* Temel stil dosyası */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    /*  arka plan rengi */
+}
+
+header {
+    background-color: rgb(44, 91, 44);
+    /* Yeşil başlık arka plan rengi */
+    opacity: 0.5;
+    color: white;
+    /* padding: 20px;
+    margin-left: 300px; */
+    border-radius: 8px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+header h1 {
+    padding: 10px 80px 10px 280px;
+    text-align: right;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.5em;
+    font-weight: 100;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 8px;
+    text-align: center;
+    justify-content: center;
+    /* background-color: rgb(62, 101, 81); */
+    padding: 8px 8px 8px 0px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+nav li:hover {
+    background-color: rgb(4, 44, 19);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+}
+
+#anasayfa img {
+    display: inline;
+    justify-items: center;
+    height: 500px;
+    width: 64%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 16px;
+    margin-left: 270px;
+
+}
+
+#koleksiyon img {
+    display: inline;
+    justify-items: center;
+    height: 500px;
+    width: 64%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 16px;
+    margin-left: 270px;
+
+}
+
+#urunler img {
+    display: inline;
+    justify-items: center;
+    height: 500px;
+    width: 64%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 16px;
+    margin-left: 270px;
+
+}
+
+#onecıkan img {
+    display: inline;
+    justify-items: center;
+    height: 500px;
+    width: 64%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 16px;
+    margin-left: 270px;
+
+
+}
+
+#contact img {
+    display: inline;
+    justify-items: center;
+    height: 500px;
+    width: 64%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 16px;
+    margin-left: 270px;
+
+}
+
+label {
+    background-color: rgb(44, 91, 44);
+    /* box-shadow: inset 0 0 100px hsla(0,0%,0%,.3); */
+    /* border: 1px; */
+    cursor: pointer;
+    display: inline-block;
+    font: bold 1.2em 'Montserrat', sans-serif;
+    margin-left: -.125em;
+    padding: 11px 20px 11px 20px;
+    transition: .25s;
+    color: rgb(238, 238, 219);
+}
+
+input:hover+label {
+    border-radius: 0 5px 5px 0;
+}
+
+input:hover+label {
+    background-color: rgb(4, 44, 19);
+}
+
+input {
+    background-color: rgb(4, 44, 19);
+    /* border: 1px solid #666; */
+    /* color: white; */
+    display: inline-block;
+    font: 1.2em Helvetica;
+    margin-right: -.25em;
+    outline: 0;
+    opacity: 0;
+    padding: 10px;
+    transition: .55s;
+    -webkit-transition: .55s;
+    -moz-transition: .55s;
+    -ms-transition: .55s;
+    -o-transition: .55s;
+    width: 0;
+}
+
+input:hover {
+    opacity: 1;
+    padding-left: .75em;
+    padding-right: .75em;
+    width: 8em;
+    /* border-radius:5px 0 0 5px; */
+}
+
+
+#search:focus {
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(44, 91, 44);
+    opacity: 0.5;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px 0;
+    border-radius: 8px;
+}
+
+footer #logo img {
+    /* display: block; */
+    height: 80px;
+    width: 80px;
+    border: 1px;
+    border-radius: 16px;
+    padding: 10px;
+
+}
